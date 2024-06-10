@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Registration</title>
+    <meta name="description" content="Student Registration Form for enrolling in our academic programs">
+    <meta name="author" content="Datta Shitule">
+    <link rel="stylesheet" href="./form.css" /> <!--css for form  -->
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-************" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <h1>Student Registration Form</h1>
+        <pre style="font-size: 18px; font-family:'Times New Roman'; border:1px solid black;color: green">     Implemented a student registration form with fields for  
+             Name, ID, Contact Detail, email. captures form  submission events, store input data in the browser's local storage,
+             and admin can edit and delete added students information</pre>
+    </header>
+    <form>
+        
+        <label> student Name</label>
+        <input type="text" name="student_name" id="student_name" placeholder="Enter student Name here" required />
+        <label> student ID</label>
+        <input type="number" name="student_id" id="student_id" placeholder="Enter student ID here" required />
+        <label> student Email</label>
+        <input type="email" name="student_email" id="student_email" placeholder="Enter student email here" required />
+        <label> student Mobile</label>
+        <input type="number" name="student_contact" id="student_contact"
+            placeholder="Enter student contact number  here" required />
+
+        <button id="add_button">Add Student</button>
+      
+    </form>
+    <div id="todolist"></div>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+#todolist{
+    background-color: lightblue;
+    margin: 5%;
+    overflow: auto;
+    margin-bottom: 25px;
+}
+.creatediv {
+    border: 1px solid #ccc; /* Add a border */
+    padding: 10px; /* Add some padding */
+    margin-bottom: 10px; /* Add space between each created div */
+    background-color: #f9f9f9; /* Background color */
+    border-radius: 5px; /* Add rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    display: flex;
+    flex-direction: row; /* Use row for horizontal layout */
+    gap: 20px;}
+
+.creatediv p {
+    margin: 0; /* Remove default margin for paragraphs inside created div */
+    display: inline;
+    font-size: 21px;
+    
+}
+
+.creatediv button {
+    background-color: #ff0000; /* Background color for the delete button */
+    color: #fff; /* Text color for the delete button */
+    border: none; /* Remove border */
+    padding: 10px 10px; /* Add padding */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 5px; /* Add rounded corners */
+}
+
+.creatediv button:hover {
+    background-color: black; /* Change background color on hover */
+}
+
+th{
+
+ padding: 20px;
+
+}
